@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+
+<body>
+  <div class="flex">
+    <div class="flex__left">
+      <header class="header">
+        <img class="logo" src="images/logo.svg">
+      </header>
+
+      <img class="mobile__hero" src="images/hero-mobile.jpg">
+
+      <div class="main">
+        <div class="main__heading">
+          <h1><span>We're</span></h1>
+          <h1>Coming Soon</h1>
+        </div>
+
+        <p>Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+        <form id="form" class="email__input">
+          <input id="email" class="email__field" type="email" placeholder="Email Address" required>
+          <img class="error" src="images/icon-error.svg">
+          <button class="btn"><img src="images/icon-arrow.svg"></button>
+          <small class="error error__message">Please provide a valid email</small>
+        </form>
+      </div>
+    </div>
+
+    <div class="flex__right">
+      <img class="desktop__hero" src="images/hero-desktop.jpg">
+    </div>
+  </div>
+</body>
+</html>
